@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
-import logo from "../assets/Logo.jpg";
+import logo from "../assets/Logo-name.svg";
 
 export default function MainNavigation() {
   return (
