@@ -1,0 +1,11 @@
+.feature-container {
+  flex-basis: 300px;
+  background-color: #0578c7;
+  border-radius: 8px;
+  color: white;
+  padding: 1rem;
+}
+
+.feature-container h3 {
+  padding-bottom: 0.5rem;
+}
