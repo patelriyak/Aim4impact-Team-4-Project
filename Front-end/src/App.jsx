@@ -3,6 +3,7 @@ import RootLayout from "./pages/Root";
 import HomePage from "./pages/Home";
 import LoginPage from "./pages/Login";
 import SignupPage from "./pages/Signup";
+import MedicationPage from "./pages/Medication";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
 
 function App() {
   return <RouterProvider router={router} />;
+  // <div>Home</div>;
 }
 
 export default App;
