@@ -1,12 +1,16 @@
-export default function DetailSignup() {
+import React,{useState} from "react";
+
+function DetailSignup() {
     return (
         <div>
             <div>
                 <label>Firstname</label>
-                <input type="name" value={Fname} />
+                <input type="name"  />
                 <label>Firstname</label>
-                <input type="name" value={Fname} />
+                <input type="name"  />
             </div>
         </div>
     )
 }
+
+export default DetailSignup;

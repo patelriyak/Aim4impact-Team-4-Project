@@ -1,3 +1,9 @@
+import SignIn from "../components/SignIn";
+
 export default function LoginPage() {
-  return <div>Login</div>;
+  return (
+    <div>
+      <SignIn/>
+    </div>
+  );
 }
