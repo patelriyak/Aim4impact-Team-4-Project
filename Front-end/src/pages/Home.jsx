@@ -1,4 +1,4 @@
-import heroImage from "../assets/hero-image.jpg";
+import heroImage from "../assets/hero-image.png";
 import Features from "../components/Features";
 import HowItWorksStep from "../components/HowItWorksStep";
 import classes from "./Home.module.css";
@@ -27,39 +27,49 @@ const STEPS = [
 const FEATURES = [
   {
     number: 1,
+    title: "Stay on Track",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Facilisis egestas placerat ultrices cursus in. Id nullam nec adipiscing senectus. Enim in morbi augue bibendum dolor adipiscing. Sed vel nibh quis risus adipiscing morbi suspendisse.",
+      "Manage medications, receive reminders, and track adherence rates.",
   },
   {
     number: 2,
+    title: "Gain Knowledge",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Purus viverra eget luctus adipiscing pharetra praesent porttitor. Nisi cursus cras eu purus imperdiet tortor in.",
+      "Access educational resources and explanations tailored to your needs.",
   },
   {
     number: 3,
+    title: "Embrace Inclusivity",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Quisque rutrum fermentum consequat felis a.",
+      "Find recommendations and resources that reflect your unique background and health concerns.",
   },
   {
     number: 4,
+    title: "Make Informed Decisions",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Vulputate mattis nisi eu volutpat ipsum erat.",
+      "Get personalized recommendations for medications, over-the-counter products, and healthy practices.",
   },
   {
     number: 5,
+    title: "Simplify Healthcare",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Risus congue ultrices vestibulum turpis nulla turpis nibh condimentum.",
+      "Seamlessly integrate medication management and health resources into your daily routine",
   },
 ];
 export default function HomePage() {
   return (
     <>
       <section className={classes["hero-section"]}>
-        <div>
+        <div className={classes["hero-text-container"]}>
           <h1>Get started with our health care assistant management</h1>
+          <p>GET CARE NOW</p>
+          <div className={classes["buttons-container"]}>
+            <button className="primary">Patient</button>
+            <button className="secondary">Care Giver</button>
+          </div>
         </div>
-        <div>
-          <img src={heroImage} width="300" height="300" />{" "}
+        <div className={classes["hero-image-container"]}>
+          <img src={heroImage} width="300" height="300" />
         </div>
       </section>
       <section className={classes["how-it-works-section"]}>
@@ -74,7 +84,7 @@ export default function HomePage() {
         <h2>Top Services We Offer</h2>
         <div className={classes["services-container"]}>
           {FEATURES.map((feature) => (
-            <Features key="feature.number" feature={feature} />
+            <Features key="feature.title" feature={feature} />
           ))}
         </div>
       </section>
