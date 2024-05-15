@@ -1,5 +1,5 @@
 .feature-container {
-  flex-basis: 300px;
+  flex: 1 1 300px;
   background-color: #0578c7;
   border-radius: 8px;
   color: white;
@@ -8,4 +8,8 @@
 
 .feature-container h3 {
   padding-bottom: 0.5rem;
+}
+
+.feature-container p {
+  font-size: 0.9rem;
 }

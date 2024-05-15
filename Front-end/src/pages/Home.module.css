@@ -1,26 +1,57 @@
 .hero-section {
-  width: 70%;
+  width: 80%;
+  border-radius: 8px;
+  background-color: #0578c7;
   margin: auto;
-  padding: 4rem 0;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+.hero-text-container {
+  flex-basis: 50%;
 }
 
 .hero-section h1 {
-  font-size: 3rem;
-  color: #0578c7;
+  font-size: 1.8rem;
+  color: white;
+  line-height: 1.2;
+  padding-bottom: 1rem;
+}
+
+.hero-section p {
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.hero-image-container {
+  align-self: flex-end;
 }
 
 .hero-section img {
+  width: 100%;
   object-fit: cover;
+  overflow: visible;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.how-it-works-section {
+  margin-bottom: 3rem;
 }
 
 .how-it-works-section h2 {
   font-size: 2rem;
   text-align: center;
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 
 .how-it-works-container {
@@ -31,6 +62,10 @@
   width: 90%;
   margin: auto;
   padding: 2rem 0;
+}
+
+.services-section {
+  padding: 3rem 0;
 }
 
 .services-section h2 {

@@ -1,0 +1,16 @@
+.medication-list-container {
+  flex: 1 1 35%;
+  padding: 0 2rem;
+  padding-bottom: 3rem;
+}
+
+.medication-list-container h2 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.medicine-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

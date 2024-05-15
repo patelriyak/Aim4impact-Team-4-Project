@@ -5,6 +5,8 @@
   gap: 2rem;
   padding: 1rem;
   height: 72px;
+  border-bottom: solid 1px #ecf7ff;
+  /* position: absolute; */
 }
 
 .navigation {
@@ -37,7 +39,8 @@
 }
 
 .sign-in-button {
-  border: solid 1px black;
+  color: #0578c7;
+  border: solid 1px #0578c7;
   border-radius: 8px;
   padding: 0.5rem 1rem;
   font-size: 14px;

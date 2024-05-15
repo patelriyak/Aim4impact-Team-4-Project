@@ -1,0 +1,8 @@
+.medication-page-container {
+  margin-bottom: 2rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 2rem;
+}

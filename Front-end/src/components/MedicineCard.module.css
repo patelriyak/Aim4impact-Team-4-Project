@@ -1,0 +1,28 @@
+.medicine-card-container {
+  background-color: #0578c7;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.medicine-card-container img {
+  width: 48px;
+  border-radius: 8px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.medicine-details {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.medicine-details p {
+  font-size: 0.85rem;
+}

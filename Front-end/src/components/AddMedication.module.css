@@ -1,0 +1,39 @@
+.add-medication-section-container {
+  flex: 1 1 35%;
+}
+
+.add-medication-container {
+  margin: 3rem;
+  padding: 2rem;
+  border: solid 1px darkgrey;
+  border-radius: 8px;
+}
+
+.add-medication-container h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.input-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.input-control label {
+  font-weight: bold;
+}
+
+.input-control select {
+  font-size: 0.9rem;
+  padding: 0.25rem;
+  border-color: darkgrey;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.input-sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
