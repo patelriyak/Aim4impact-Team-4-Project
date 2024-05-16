@@ -10,8 +10,15 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+input,
+select,
+textarea {
+  cursor: pointer;
+}
+
 .button {
   font-family: "Inter", sans-serif;
+  cursor: pointer;
 }
 
 .primary {
@@ -30,4 +37,20 @@ body {
   border-radius: 8px;
   padding: 0.5rem 2rem;
   font-weight: bold;
+}
+
+.primary:hover {
+  background-color: #0167ab;
+}
+
+.primary:active {
+  background-color: #0578c7;
+}
+
+.secondary:hover {
+  background-color: #dcecf7;
+}
+
+.secondary:active {
+  background-color: white;
 }
