@@ -31,21 +31,21 @@ const PRESCRIPTION_MEDICINE_LIST = [
 const OVER_THE_COUNTER_LIST = [
   {
     image: "",
-    name: "Bactrim",
+    name: "medcine1",
     frequency: "1",
     schedule: "1",
     dosage: "1",
   },
   {
     image: "",
-    name: "Bactrim",
+    name: "medicine2",
     frequency: "1",
     schedule: "1",
     dosage: "1",
   },
   {
     image: "",
-    name: "Bactrim",
+    name: "medicine3",
     frequency: "1",
     schedule: "1",
     dosage: "1",
@@ -58,16 +58,22 @@ export default function MedicationList() {
       <div>
         <h2>PRESCRIPTION LIST</h2>
         <div className={classes["medicine-list-container"]}>
-          {PRESCRIPTION_MEDICINE_LIST.map((medicine) => (
-            <MedicineCard key={medicine.title} medicine={medicine} />
+          {PRESCRIPTION_MEDICINE_LIST.map((medicine, index) => (
+            <MedicineCard
+              key={`${medicine.title}${index}`}
+              medicine={medicine}
+            />
           ))}
         </div>
       </div>
       <div>
         <h2>OVER-THE-COUNTER</h2>
         <div className={classes["medicine-list-container"]}>
-          {OVER_THE_COUNTER_LIST.map((medicine) => (
-            <MedicineCard medicine={medicine} />
+          {OVER_THE_COUNTER_LIST.map((medicine, index) => (
+            <MedicineCard
+              key={`${medicine.title}${index}`}
+              medicine={medicine}
+            />
           ))}
         </div>
       </div>

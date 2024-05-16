@@ -10,8 +10,15 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+input,
+select,
+textarea {
+  cursor: pointer;
+}
+
 .button {
   font-family: "Inter", sans-serif;
+  cursor: pointer;
 }
 
 .primary {
@@ -32,6 +39,7 @@ body {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 /* Comman CSS */
 .display-flex {
   display: flex;
@@ -141,3 +149,20 @@ body {
   font-weight: bold;
   font-size: 16px;
 }
+=======
+.primary:hover {
+  background-color: #0167ab;
+}
+
+.primary:active {
+  background-color: #0578c7;
+}
+
+.secondary:hover {
+  background-color: #dcecf7;
+}
+
+.secondary:active {
+  background-color: white;
+}
+>>>>>>> LandingPage
