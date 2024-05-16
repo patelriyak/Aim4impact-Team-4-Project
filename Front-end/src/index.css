@@ -39,7 +39,6 @@ textarea {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 /* Comman CSS */
 .display-flex {
   display: flex;
@@ -149,7 +148,6 @@ textarea {
   font-weight: bold;
   font-size: 16px;
 }
-=======
 .primary:hover {
   background-color: #0167ab;
 }
@@ -165,4 +163,3 @@ textarea {
 .secondary:active {
   background-color: white;
 }
->>>>>>> LandingPage
